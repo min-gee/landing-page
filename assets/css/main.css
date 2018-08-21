@@ -1,0 +1,98 @@
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.page-footer {
+    padding-top: 0;
+    background: #c8191e;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 106px);
+}
+
+.page-main .top-image {
+    max-width: 750px;
+    width: calc(100vw * .75);
+    margin-left: auto;
+    margin-top: 18px;
+    margin-right: auto;
+}
+
+.page-main .bio-title-f1 {
+    margin-bottom: 0;
+    text-align: center;
+    color: #fdd902;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page-main .bio-title-f2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page-main .bio-title-f3 {
+    margin-top: 0;
+    text-align: center;
+    color: #fdd902;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-main .container-flux {
+    position: relative;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.page-main .container-flux .bio-images{
+    margin-top: 20%;
+    width: calc(100vw * .75);
+    max-width: 600px;
+}
+
+.page-main .container-flux .percent-image {
+    position: absolute;
+    width: 30%;
+    max-width: 200px;
+    right: -10%;
+    margin-top: -10%;
+}
+
+.page-main .container-flux .agent-image {
+    position: absolute;
+    width: 40%;
+    max-width: 240px;
+    left: -14%;
+    margin-top: -8%;
+}
+
+.page-main .container-flux .btn-signup {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #f58221;
+}
+
+.page-main .bio-step {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.page-main .bio-step .row .col {
+    padding: 0;
+}
+
+.page-main .bio-step .step-images {
+    width: 100%;
+}
