@@ -3,7 +3,13 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+.brand-logo {
+    max-width: 200px;
+    width: calc(100vw * .75);
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: auto;
+}
 .page-footer {
     padding-top: 0;
     background: #c8191e;
@@ -16,7 +22,7 @@ body {
 }
 
 .page-main .top-image {
-    max-width: 750px;
+    max-width: 500px;
     width: calc(100vw * .75);
     margin-left: auto;
     margin-top: 18px;
@@ -24,7 +30,7 @@ body {
 }
 
 .page-main .bio-title-f1 {
-    margin-bottom: 0;
+    margin-bottom: 5px;
     text-align: center;
     color: #fdd902;
     font-weight: bold;
@@ -39,7 +45,7 @@ body {
     text-transform: uppercase;
 }
 .page-main .bio-title-f3 {
-    margin-top: 0;
+    margin-top: 5px;
     text-align: center;
     color: #fdd902;
     font-weight: 600;
@@ -52,29 +58,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 }
 
 .page-main .container-flux .bio-images{
-    margin-top: 20%;
+    margin-top: 5%;
     width: calc(100vw * .75);
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .page-main .container-flux .percent-image {
     position: absolute;
     width: 30%;
     max-width: 200px;
-    right: -10%;
-    margin-top: -10%;
+    right: -13%;
+    margin-top: -12%;
 }
 
 .page-main .container-flux .agent-image {
     position: absolute;
     width: 40%;
     max-width: 240px;
-    left: -14%;
-    margin-top: -8%;
+    left: -13%;
+    margin-top: -16%;
 }
 
 .page-main .container-flux .btn-signup {
@@ -95,4 +104,61 @@ body {
 
 .page-main .bio-step .step-images {
     width: 100%;
+}
+
+@media only screen and (max-width: 1920px) {
+	.page-main .bio-title-f1 {
+    	font-size:1.45rem;
+	}
+	.page-main .bio-title-f2 {
+    	font-size:1.97rem;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.page-main .bio-title-f1 {
+    	font-size:1.51rem;
+	}
+	.page-main .bio-title-f2 {
+    	font-size:2.06rem;
+	}
+	.container {
+		width:98%;
+	}
+}
+
+@media only screen and (max-width: 601px) {
+	.page-main .bio-title-f1 {
+    	font-size:1.39rem;
+	}
+	.page-main .bio-title-f2 {
+    	font-size:1.91rem;
+	}
+	.container {
+		width:98%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.page-main .bio-title-f1 {
+    	font-size:1.09rem;
+	}
+	.page-main .bio-title-f2 {
+    	font-size:1.52rem;
+    }
+    .container {
+		width:98%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.page-main .bio-title-f1 {
+    	font-size:0.8rem;
+	}
+	.page-main .bio-title-f2 {
+    	font-size:1.12rem;
+	}
+	.container {
+		width:98%;
+	}
 }
